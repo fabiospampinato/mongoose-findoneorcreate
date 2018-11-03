@@ -1,8 +1,5 @@
 # findOneOrCreate
 
-![Issues](https://img.shields.io/github/issues/fabiospampinato/mongoose-findoneorcreate.svg)
-[![NPM version](https://img.shields.io/npm/v/mongoose-findoneorcreate.svg)](https://www.npmjs.com/package/mongoose-findoneorcreate)
-
 Promise-based plugin for Mongoose that defines a "findOneOrCreate" static method.
 
 Useful for finding a document, with support for creating it if doesn't exist already.
