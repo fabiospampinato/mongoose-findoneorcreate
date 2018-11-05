@@ -1,6 +1,6 @@
 {
   "name": "mongoose-findoneorcreate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise-based plugin for Mongoose that defines a \"findOneOrCreate\" static method.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,9 @@
     "prepublish": "npm run clean && npm run compile"
   },
   "ava": {
-    "files": ["test/index.js"]
+    "files": [
+      "test/index.js"
+    ]
   },
   "bugs": {
     "url": "https://github.com/fabiospampinato/mongoose-findoneorcreate/issues"
@@ -33,7 +35,7 @@
     "url": "https://github.com/fabiospampinato/mongoose-findoneorcreate.git"
   },
   "keywords": [],
-	"dependencies": {},
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.18.2",
     "ava-spec": "^1.1.0",
