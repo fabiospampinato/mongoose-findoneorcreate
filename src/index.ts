@@ -32,4 +32,4 @@ function findOneOrCreate ( schema ) {
 
 /* EXPORT */
 
-export = Object.assign ( findOneOrCreate, { default: findOneOrCreate } );
+export default findOneOrCreate;
