@@ -1,6 +1,6 @@
 {
   "name": "mongoose-findoneorcreate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promise-based plugin for Mongoose that defines a \"findOneOrCreate\" static method.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
